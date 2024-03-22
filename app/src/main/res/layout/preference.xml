@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center|top"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:isScrollContainer="true">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:text="Select Background"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Set"
+        android:background="#666666"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_main"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Set"
+        android:background="#666666"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:background="@drawable/about_bg"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Set"
+        android:background="#666666"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_alt1"/>
+
+</LinearLayout>
+</ScrollView>

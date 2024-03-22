@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_task"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Task"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/alarm_menu"
+        android:title="Set Alarm"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/reminder_menu"
+        android:title="Set Reminder"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/preference_menu"
+        android:title="Preference"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/about_menu"
+        android:title="About"
+        app:showAsAction="never"
+        />
+
+</menu>
